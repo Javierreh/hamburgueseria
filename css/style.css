@@ -34,7 +34,7 @@ body {
 	margin: 0 auto;
 }
 
-/* Hero */
+/* header */
 
 header .submenu {
 	background-color: #21242e;
@@ -106,6 +106,61 @@ img {
 	height: auto;
 }
 
+/* Fin header */
 
-/* Fin Heroe */
 
+/* Hero */
+
+.hero {
+	background-image: url("../images/fondo.jpg");
+	background-color: #222;
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center right;
+	background-blend-mode: soft-light;
+}
+
+.hero>div {
+	padding: 12% 15%;
+	color: white;
+}
+
+.hero>div h2 {
+	font-size: 2em;
+	font-family: 'Handlee', cursive;
+}
+
+.hero>div h3 {
+	margin: 20px 0;
+	font-size: 1.25em;
+	color: #fa573a;
+}
+
+.hero>div div a {
+	background-color: #fa573a;
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	display: inline-block;
+	margin: 20px 0;
+	border: 2px solid #fa573a;
+}
+
+.hero>div div a:hover {
+	background-color: transparent;
+	color: #fa573a;
+	border: 2px solid #fa573a;
+}
+
+.hero .social li {
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 24px;
+}
+
+.hero .social li a {
+	color: white;
+}
+
+/* Fin Hero */
